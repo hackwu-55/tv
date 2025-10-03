@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maige MoonTV</title>
+    <style>
+        /* 让iframe占满整个页面，隐藏边框 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* 隐藏原页面滚动条 */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* 去掉iframe边框 */
+        }
+    </style>
+</head>
+<body>
+    <!-- iframe的src指向新网址，内容会在原网址页面中展示 -->
+    <iframe src="http://silin.cc:3000"></iframe>
+</body>
+</html>
